@@ -104,54 +104,109 @@ import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek7 from "/assets/proyek/proyek7.webp";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    nama: "Website Food Delivery - Belajar Mandiri",
+    desk: "Website responsif berbasis HTML, CSS, dan JavaScript dengan fitur 'Add to Cart' sederhana.",
+    tools: ["HTML", "CSS", "Javascript", "Swiper"],
     dad: "200",
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    nama: "Website Kedai Kopi - Belajar Mandiri",
+    desk: "Website responsif berbasis HTML & CSS dengan tampilan modern dan layout rapi.",
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "300",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    nama: "CRUD Application - Belajar Mandiri",
+    desk: "Aplikasi CRUD murni dengan JavaScript untuk membuat, membaca, mengubah, dan menghapus data.",
+    tools: ["HTML", "Bootstrap", "Javascript"],
     dad: "400",
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    nama: "eBox",
+    desk: "Aplikasi web untuk pengelolaan gudang, saya berkontribusi di pengembangan frontend menggunakan PHP dan Bootstrap.",
+    tools: ["PHP", "HTML", "CSS", "Bootstrap", "AOS", "Figma", "MySQL"],
     dad: "500",
   },
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    nama: "NEUCAFE",
+    desk: "Aplikasi web untuk memantau statistik penjualan kafe, dengan kontribusi saya pada desain UI di Figma.",
+    tools: ["PHP", "Laravel", "MySQL", "Figma"],
     dad: "600",
   },
   {
     id: 6,
     gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
+    nama: "medRemind",
+    desk: "Aplikasi Android pengingat jadwal minum obat, saya berperan pada wireframe di Figma serta UI dan frontend dengan Kotlin.",
+    tools: ["Kotlin", "Figma"],
     dad: "700",
+  },
+  {
+    id: 7,
+    gambar: Proyek7,
+    nama: "Feed Instagram KKN",
+    desk: "Design untuk akun instagram KKN menggunakan Canva",
+    tools: ["Canva"],
+    dad: "800",
+  },
+];
+
+import Sertif1 from "/assets/sertif/sertif1.webp";
+import Sertif2 from "/assets/sertif/sertif2.webp";
+import Sertif3 from "/assets/sertif/sertif3.webp";
+import Sertif4 from "/assets/sertif/sertif4.webp";
+import Sertif5 from "/assets/sertif/sertif5.webp";
+import Sertif6 from "/assets/sertif/sertif6.webp";
+
+export const listSertif = [
+  {
+    id: 1,
+    gambar: Sertif1,
+    nama: "Sertifikat PSDM",
+    dad: "0",
+  },
+  {
+    id: 2,
+    gambar: Sertif2,
+    nama: "Sertifikat PSDM",
+    dad: "200",
+  },
+  {
+    id: 3,
+    gambar: Sertif3,
+    nama: "Sertifikat PSDM",
+    dad: "400",
+  },
+  {
+    id: 4,
+    gambar: Sertif4,
+    nama: "Sertifikat PSDM",
+    dad: "600",
+  },
+  {
+    id: 5,
+    gambar: Sertif5,
+    nama: "Sertifikat PSDM",
+    dad: "800",
+  },
+  {
+    id: 6,
+    gambar: Sertif6,
+    nama: "Sertifikat PSDM",
+    dad: "1000",
   },
 ];

@@ -152,6 +152,52 @@ export const listProyek = [
     nama: "Company Profile 2.0",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
+    dad: "800",
+  },
+];
+
+import Sertif1 from "/assets/sertif/sertif1.webp";
+import Sertif2 from "/assets/sertif/sertif2.webp";
+import Sertif3 from "/assets/sertif/sertif3.webp";
+import Sertif4 from "/assets/sertif/sertif4.webp";
+import Sertif5 from "/assets/sertif/sertif5.webp";
+import Sertif6 from "/assets/sertif/sertif6.webp";
+
+export const listSertif = [
+  {
+    id: 1,
+    gambar: Sertif1,
+    nama: "Sertifikat PSDM",
+    dad: "0",
+  },
+  {
+    id: 2,
+    gambar: Sertif2,
+    nama: "Sertifikat PSDM",
+    dad: "200",
+  },
+  {
+    id: 3,
+    gambar: Sertif3,
+    nama: "Sertifikat PSDM",
+    dad: "400",
+  },
+  {
+    id: 4,
+    gambar: Sertif4,
+    nama: "Sertifikat PSDM",
+    dad: "600",
+  },
+  {
+    id: 5,
+    gambar: Sertif5,
+    nama: "Sertifikat PSDM",
+    dad: "800",
+  },
+  {
+    id: 6,
+    gambar: Sertif6,
+    nama: "Sertifikat PSDM",
+    dad: "1000",
   },
 ];

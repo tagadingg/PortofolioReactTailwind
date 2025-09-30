@@ -8,16 +8,32 @@ const Footer = () => {
         <a href="#proyek">Proyek</a>
       </div>
       <div className="flex items-center gap-3">
-        <a href="#">
+        <a
+          href="https://github.com/tagadingg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="ri-github-fill ri-2x"></i>
         </a>
-        <a href="#">
+        <a
+          href="https://www.instagram.com/tanziila.ag/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="ri-instagram-fill ri-2x"></i>
         </a>
-        <a href="#">
+        <a
+          href="https://linkedin.com/in/tanziilaAziizi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="ri-linkedin-fill ri-2x"></i>
         </a>
-        <a href="#">
+        <a
+          href="http://wa.me//6289515035423"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="ri-whatsapp-fill ri-2x"></i>
         </a>
       </div>

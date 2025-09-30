@@ -1,5 +1,5 @@
 import DataImage from "./data";
-import { listTools, listProyek } from "./data";
+import { listTools, listProyek, listSertif } from "./data";
 
 function App() {
   return (
@@ -19,11 +19,12 @@ function App() {
             Hi, Saya Tanziila Aziizi Gading
           </h1>
           <p className="text-base/loose mb-6 opacity-50">
-            Saya mempunyai ketertarikan dalam bidang Designer dan Programming,
-            terutama dalam pembuatan website. saya merupakan fresh graduate dari
-            jurusan informatika UII Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Obcaecati nemo dolore esse blanditiis sint
-            pariatur.
+            Halo, saya fresh graduate Informatika yang memiliki ketertarikan
+            pada UI design dan front-end web development. Saya senang
+            menciptakan website dengan tampilan sederhana namun tetap menarik,
+            serta memberikan pengalaman yang nyaman bagi pengguna. Bagi saya,
+            desain yang baik bukan hanya soal visual, tapi juga bagaimana
+            membuat interaksi pengguna menjadi lebih menyenangkan.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
@@ -63,11 +64,13 @@ function App() {
             loading="lazy"
           />
           <p className="text-base/loose mb-10">
-            Hi, perkenalkan saya Diky Prayoga, seorang Full Stack Web Developer
-            dan Designer untuk UI/UX Design maupun Product Digital, Saya percaya
-            bahwa desain dan fungsionalitas harus berjalan beriringan, sehingga
-            setiap proyek yang saya kembangkan tidak hanya terlihat menarik
-            tetapi juga memberikan pengalaman pengguna yang optimal.
+            Hi, perkenalkan saya Tanziila, fresh graduate Informatika yang punya
+            ketertarikan di bidang UI Design dan Front-end Web Development. Bagi
+            saya, desain bukan hanya soal estetika, tapi bagaimana sebuah produk
+            digital bisa memberi pengalaman terbaik bagi penggunanya. Saya
+            selalu bersemangat untuk belajar hal baru dan mengembangkan
+            kemampuan di dunia design serta coding, terutama untuk UI dan
+            Front-end. (:
           </p>
           <div className="flex items-center justify-between">
             <img
@@ -79,16 +82,16 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-4xl mb-1">
-                  45<span className="text-blue-700">+</span>
+                  100<span className="text-blue-700">%</span>
                 </h1>
-                <p>Proyek Selesai</p>
+                <p>Curious Coder</p>
               </div>
-              <div>
+              {/* <div>
                 <h1 className="text-4xl mb-1">
-                  4<span className="text-blue-700">+</span>
+                  100<span className="text-blue-700">%</span>
                 </h1>
-                <p>Tahun Pengalaman</p>
-              </div>
+                <p>Curious Coder</p>
+              </div> */}
             </div>
           </div>
         </div>
@@ -195,6 +198,50 @@ function App() {
         </div>
       </div>
       {/* PROYEK */}
+
+      {/* SERTIF */}
+      <div className="sertifikat mt-32 py-10" id="sertifikat">
+        <h1
+          className="text-center text-4xl font-bold mb-2"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
+          Sertifikat
+        </h1>
+        <p
+          className="text-base/loose text-center opacity-50"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+          data-aos-once="true"
+        >
+          Beberapa sertifikat yang telah saya peroleh.
+        </p>
+        <div className="sertifikat-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+          {listSertif.map((sertif) => (
+            <div
+              key={sertif.id}
+              className="p-4 bg-zinc-800 rounded-md"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-once="true"
+              data-aos-delay={sertif.dad}
+            >
+              <img
+                src={sertif.gambar}
+                alt={`Sertifikat ${sertif.id}`}
+                className="rounded-md"
+                loading="lazy"
+              />
+              <h2 className="text-lg font-semibold text-center mt-4">
+                {sertif.nama}
+              </h2>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* SERTIF */}
 
       {/* KONTAK */}
       <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
