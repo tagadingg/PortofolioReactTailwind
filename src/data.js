@@ -14,7 +14,7 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
+// import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 
@@ -75,13 +75,13 @@ export const listTools = [
     ket: "Repository",
     dad: "800",
   },
-  {
-    id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
-    dad: "900",
-  },
+  // {
+  //   id: 9,
+  //   gambar: Tools9,
+  //   nama: "Adobe Illustrator",
+  //   ket: "Design App",
+  //   dad: "900",
+  // },
   {
     id: 10,
     gambar: Tools10,
@@ -114,6 +114,7 @@ export const listProyek = [
     desk: "Website responsif berbasis HTML, CSS, dan JavaScript dengan fitur 'Add to Cart' sederhana.",
     tools: ["HTML", "CSS", "Javascript", "Swiper"],
     dad: "200",
+    link: "https://github.com/tagadingg/RestoDashboardHTMLCSSJavaScript",
   },
   {
     id: 2,
@@ -122,6 +123,7 @@ export const listProyek = [
     desk: "Website responsif berbasis HTML & CSS dengan tampilan modern dan layout rapi.",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "300",
+    link: "https://github.com/tagadingg/kedai-kopi-belajar",
   },
   {
     id: 3,
@@ -130,6 +132,7 @@ export const listProyek = [
     desk: "Aplikasi CRUD murni dengan JavaScript untuk membuat, membaca, mengubah, dan menghapus data.",
     tools: ["HTML", "Bootstrap", "Javascript"],
     dad: "400",
+    link: "https://github.com/tagadingg/SimpleCRUDJavascript",
   },
   {
     id: 4,
@@ -138,6 +141,7 @@ export const listProyek = [
     desk: "Aplikasi web untuk pengelolaan gudang, saya berkontribusi di pengembangan frontend menggunakan PHP dan Bootstrap.",
     tools: ["PHP", "HTML", "CSS", "Bootstrap", "AOS", "Figma", "MySQL"],
     dad: "500",
+    link: "https://github.com/alamsyah08/ebox",
   },
   {
     id: 5,
@@ -146,6 +150,7 @@ export const listProyek = [
     desk: "Aplikasi web untuk memantau statistik penjualan kafe, dengan kontribusi saya pada desain UI di Figma.",
     tools: ["PHP", "Laravel", "MySQL", "Figma"],
     dad: "600",
+    link: "https://www.figma.com/design/RGsDnNnv21VoXYH0Xah6ed/neucafe--orisinil-?node-id=0-1&t=6ryy2KfYXqY4NAHJ-1",
   },
   {
     id: 6,
@@ -154,6 +159,7 @@ export const listProyek = [
     desk: "Aplikasi Android pengingat jadwal minum obat, saya berperan pada wireframe di Figma serta UI dan frontend dengan Kotlin.",
     tools: ["Kotlin", "Figma"],
     dad: "700",
+    link: "https://github.com/tagadingg/MedRemindMatkulPAB",
   },
   {
     id: 7,
@@ -162,6 +168,7 @@ export const listProyek = [
     desk: "Design untuk akun instagram KKN menggunakan Canva",
     tools: ["Canva"],
     dad: "800",
+    link: "https://www.canva.com/design/DAG0iYCwyPE/77JZ6Gv27lLIqyHKtTGt_w/edit?utm_content=DAG0iYCwyPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
 ];
 
@@ -176,37 +183,37 @@ export const listSertif = [
   {
     id: 1,
     gambar: Sertif1,
-    nama: "Sertifikat PSDM",
-    dad: "0",
+    nama: "Sertifikat Organisasi HMIF – Staff PSDM",
+    dad: "200",
   },
   {
     id: 2,
     gambar: Sertif2,
-    nama: "Sertifikat PSDM",
-    dad: "200",
+    nama: "Sertifikat Kepanitiaan – Humas, Transportasi, Konsumsi (INPUT 2022)",
+    dad: "300",
   },
   {
     id: 3,
     gambar: Sertif3,
-    nama: "Sertifikat PSDM",
+    nama: "Sertifikat Pelatihan – Apple Developer Academy (Challenge Based Learning)",
     dad: "400",
   },
   {
     id: 4,
     gambar: Sertif4,
-    nama: "Sertifikat PSDM",
-    dad: "600",
+    nama: "Sertifikat Webinar – Informatics for Improvement (WIFI 2021)",
+    dad: "500",
   },
   {
     id: 5,
     gambar: Sertif5,
-    nama: "Sertifikat PSDM",
-    dad: "800",
+    nama: "Sertifikat Bootcamp – Business Pitch Deck (IT Centrum)",
+    dad: "600",
   },
   {
     id: 6,
     gambar: Sertif6,
-    nama: "Sertifikat PSDM",
-    dad: "1000",
+    nama: "Sertifikat Webinar Nasional – Kesalahan Perilaku Generasi Muda Muslim",
+    dad: "700",
   },
 ];

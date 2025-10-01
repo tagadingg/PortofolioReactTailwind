@@ -28,7 +28,7 @@ function App() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="#"
+              href="assets/cv tanziila indo.pdf"
               className="bg-blue-800 p-4 rounded-2xl hover:bg-blue-600"
             >
               Download CV <i className="ri-download-line ri-lg"></i>
@@ -55,7 +55,7 @@ function App() {
           className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-once="true"
+          data-aos-once="false"
         >
           <img
             src={DataImage.HeroImage}
@@ -98,19 +98,19 @@ function App() {
 
         <div className="tools mt-32">
           <h1
-            className="text-4xl/snug font-bold mb-4"
+            className="text-center text-4xl/snug font-bold mb-4"
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-once="true"
+            data-aos-once="false"
           >
             Tools yang dipakai
           </h1>
           <p
-            className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50"
+            className="text-base/loose text-center opacity-50"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
-            data-aos-once="true"
+            data-aos-once="false"
           >
             Berikut ini beberapa tools yang biasa saya pakai untuk pembuatan
             Website ataupun Design
@@ -122,7 +122,7 @@ function App() {
                 key={tool.id}
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-once="true"
+                data-aos-once="false"
                 data-aos-delay={tool.dad}
               >
                 <img
@@ -147,7 +147,7 @@ function App() {
           className="text-center text-4xl font-bold mb-2"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-once="true"
+          data-aos-once="false"
         >
           Proyek
         </h1>
@@ -156,7 +156,7 @@ function App() {
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="300"
-          data-aos-once="true"
+          data-aos-once="false"
         >
           Berikut ini beberapa proyek yang telah saya buat.
         </p>
@@ -167,7 +167,7 @@ function App() {
               className="p-4 bg-zinc-800 rounded-md"
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-once="true"
+              data-aos-once="false"
               data-aos-delay={proyek.dad}
             >
               <img src={proyek.gambar} alt="Proyek Image" loading="lazy" />
@@ -186,7 +186,9 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <a
-                    href="#"
+                    href={proyek.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-blue-800 p-3 rounded-lg block border border-zinc-600 hover:bg-blue-600"
                   >
                     Lihat Website
@@ -204,17 +206,17 @@ function App() {
         <h1
           className="text-center text-4xl font-bold mb-2"
           data-aos="fade-up"
-          data-aos-duration="1500"
-          data-aos-once="true"
+          data-aos-duration="1000"
+          data-aos-once="false"
         >
           Sertifikat
         </h1>
         <p
           className="text-base/loose text-center opacity-50"
           data-aos="fade-up"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-delay="300"
-          data-aos-once="true"
+          data-aos-once="false"
         >
           Beberapa sertifikat yang telah saya peroleh.
         </p>
@@ -224,8 +226,8 @@ function App() {
               key={sertif.id}
               className="p-4 bg-zinc-800 rounded-md"
               data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-once="true"
+              data-aos-duration="1200"
+              data-aos-once="false"
               data-aos-delay={sertif.dad}
             >
               <img
@@ -244,21 +246,21 @@ function App() {
       {/* SERTIF */}
 
       {/* KONTAK */}
-      <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
+      <div className="kontak mt-32 sm:p-10 py-10" id="kontak">
         <h1
           className="text-4xl mb-2 font-bold text-center"
           data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
+          data-aos-duration="1200"
+          data-aos-once="false"
         >
           kontak
         </h1>
         <p
           className="text-base/loose text-center mb-10 opacity-50"
           data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="300"
-          data-aos-once="true"
+          data-aos-duration="1200"
+          data-aos-delay="600"
+          data-aos-once="false"
         >
           Mari terhubung dengan saya
         </p>
@@ -268,9 +270,9 @@ function App() {
           className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md"
           autoComplete="off"
           data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="500"
-          data-aos-once="true"
+          data-aos-duration="1200"
+          data-aos-delay="600"
+          data-aos-once="false"
         >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
