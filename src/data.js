@@ -114,7 +114,7 @@ export const listProyek = [
     desk: "Website responsif berbasis HTML, CSS, dan JavaScript dengan fitur 'Add to Cart' sederhana.",
     tools: ["HTML", "CSS", "Javascript", "Swiper"],
     dad: "200",
-    link: "https://github.com/tagadingg/RestoDashboardHTMLCSSJavaScript",
+    link: "https://tagadingg.github.io/RestoDashboardHTMLCSSJavaScript/",
   },
   {
     id: 2,
@@ -123,7 +123,7 @@ export const listProyek = [
     desk: "Website responsif berbasis HTML & CSS dengan tampilan modern dan layout rapi.",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "300",
-    link: "https://github.com/tagadingg/kedai-kopi-belajar",
+    link: "https://tagadingg.github.io/kedai-kopi-belajar/",
   },
   {
     id: 3,
@@ -132,7 +132,7 @@ export const listProyek = [
     desk: "Aplikasi CRUD murni dengan JavaScript untuk membuat, membaca, mengubah, dan menghapus data.",
     tools: ["HTML", "Bootstrap", "Javascript"],
     dad: "400",
-    link: "https://github.com/tagadingg/SimpleCRUDJavascript",
+    link: "https://tagadingg.github.io/SimpleCRUDJavascript/",
   },
   {
     id: 4,
