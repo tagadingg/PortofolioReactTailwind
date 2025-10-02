@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
-        <div className="animate__animated animate__fadeInUp animate__delay-3s">
+        <div className="animate__animated animate__fadeInUp animate__delay-2s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img
               src={DataImage.HeroImage}
@@ -19,32 +19,33 @@ function App() {
             Hi, Saya Tanziila Aziizi Gading
           </h1>
           <p className="text-base/loose mb-6 opacity-50">
-            Halo, saya fresh graduate Informatika yang memiliki ketertarikan
-            pada UI design dan front-end web development. Saya senang
-            menciptakan website dengan tampilan sederhana namun tetap menarik,
-            serta memberikan pengalaman yang nyaman bagi pengguna. Bagi saya,
-            desain yang baik bukan hanya soal visual, tapi juga bagaimana
-            membuat interaksi pengguna menjadi lebih menyenangkan.
+            Halo, saya Fresh Graduate Informatika Universitas Islam Indonesia
+            yang memiliki ketertarikan pada UI design dan front-end web
+            development. Saya senang menciptakan website dengan tampilan
+            sederhana namun tetap menarik, serta memberikan pengalaman yang
+            nyaman bagi pengguna. Bagi saya, desain yang baik bukan hanya soal
+            visual, tapi juga bagaimana membuat interaksi pengguna menjadi lebih
+            menyenangkan.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="assets/cv tanziila indo.pdf"
-              className="bg-blue-800 p-4 rounded-2xl hover:bg-blue-600"
+              href="assets/CV Tanziila (indo).pdf"
+              className="bg-blue-800 p-4 px-12 rounded-2xl hover:bg-blue-600"
             >
-              Download CV <i className="ri-download-line ri-lg"></i>
+              Lihat CV <i className="ri-profile-line ri-lg"></i>
             </a>
             <a
               href="#proyek"
-              className="bg-slate-600 p-4 rounded-2xl hover:bg-slate-500"
+              className="bg-slate-600 p-4 px-6 rounded-2xl hover:bg-slate-500"
             >
-              Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
+              Proyek <i className="ri-arrow-down-line ri-lg"></i>
             </a>
           </div>
         </div>
         <img
           src={DataImage.HeroImage}
           alt="Hero Image"
-          className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s"
+          className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s"
           loading="lazy"
         />
       </div>
@@ -250,7 +251,7 @@ function App() {
         <h1
           className="text-4xl mb-2 font-bold text-center"
           data-aos="fade-up"
-          data-aos-duration="1200"
+          data-aos-duration="2000"
           data-aos-once="false"
         >
           kontak
@@ -258,8 +259,8 @@ function App() {
         <p
           className="text-base/loose text-center mb-10 opacity-50"
           data-aos="fade-up"
-          data-aos-duration="1200"
-          data-aos-delay="600"
+          data-aos-duration="2000"
+          data-aos-delay="1000"
           data-aos-once="false"
         >
           Mari terhubung dengan saya
@@ -270,8 +271,8 @@ function App() {
           className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md"
           autoComplete="off"
           data-aos="fade-up"
-          data-aos-duration="1200"
-          data-aos-delay="600"
+          data-aos-duration="2000"
+          data-aos-delay="1000"
           data-aos-once="false"
         >
           <div className="flex flex-col gap-6">
