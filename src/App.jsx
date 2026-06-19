@@ -19,17 +19,16 @@ function App() {
             Hi, Saya Tanziila Aziizi Gading
           </h1>
           <p className="text-base/loose mb-6 opacity-50">
-            Halo, saya Fresh Graduate Informatika Universitas Islam Indonesia
-            yang memiliki ketertarikan pada UI design dan front-end web
-            development. Saya senang menciptakan website dengan tampilan
-            sederhana namun tetap menarik, serta memberikan pengalaman yang
-            nyaman bagi pengguna. Bagi saya, desain yang baik bukan hanya soal
-            visual, tapi juga bagaimana membuat interaksi pengguna menjadi lebih
-            menyenangkan.
+            Halo, saya Fresh Graduate Informatika yang memiliki minat di bidang
+            Front-End Development dan System Analysis. Saya senang mengembangkan
+            solusi digital yang tidak hanya memiliki antarmuka yang responsif
+            dan menarik, tetapi juga dirancang berdasarkan analisis kebutuhan
+            dan perancangan sistem yang terstruktur untuk memberikan pengalaman
+            terbaik bagi pengguna.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="assets/CV Tanziila Aziizi Gading.pdf"
+              href="assets/RESUME TANZIILA AZIIZI GADING.pdf"
               className="bg-blue-800 p-4 px-12 rounded-2xl hover:bg-blue-600"
             >
               Lihat CV <i className="ri-profile-line ri-lg"></i>
@@ -64,14 +63,18 @@ function App() {
             className="w-12 rounded-md mb-10 sm:hidden"
             loading="lazy"
           />
-          <p className="text-base/loose mb-10">
-            Hi, perkenalkan saya Tanziila, fresh graduate Informatika yang punya
-            ketertarikan di bidang UI Design dan Front-end Web Development. Bagi
-            saya, desain bukan hanya soal estetika, tapi bagaimana sebuah produk
-            digital bisa memberi pengalaman terbaik bagi penggunanya. Saya
-            selalu bersemangat untuk belajar hal baru dan mengembangkan
-            kemampuan di dunia design serta coding, terutama untuk UI dan
-            Front-end. (:
+          <p className="text-base/loose mb-10 text-center">
+            Halo, perkenalkan saya Tanziila, Fresh Graduate Informatika yang
+            memiliki ketertarikan di bidang Front-End Development dan System
+            Analysis. Saya memiliki pengalaman dalam pengembangan antarmuka web
+            serta perancangan sistem melalui penelitian berbasis Enterprise
+            Architecture, termasuk analisis kebutuhan, pemodelan proses bisnis,
+            dan perancangan arsitektur sistem. <br /> <br /> Saya percaya bahwa
+            solusi digital yang baik tidak hanya dibangun dari tampilan yang
+            menarik, tetapi juga dari perancangan sistem yang terstruktur dan
+            berorientasi pada kebutuhan pengguna. Saya selalu antusias untuk
+            belajar hal baru dan terus mengembangkan kemampuan di bidang
+            pengembangan web maupun analisis sistem. (:
           </p>
           <div className="flex items-center justify-between">
             <img
