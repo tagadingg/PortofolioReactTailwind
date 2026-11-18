@@ -28,7 +28,7 @@ function App() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="assets/September 2026 - CV Tanziila Aziizi Gading.pdf"
+              href="assets/CV TANZIILA AZIIZI GADING.pdf"
               className="bg-blue-800 p-4 px-12 rounded-2xl hover:bg-blue-600"
             >
               Lihat CV <i className="ri-profile-line ri-lg"></i>
